@@ -44,7 +44,13 @@ nav img{
 a{
     color: rgb(110, 143, 204);
 }
-
+.show{
+    display: block!important;
+    transition: 0.3s;
+}
+.read{
+    display: none;
+}
 .main{
     height: 90vh;
     padding-top: 180px;
@@ -64,12 +70,12 @@ a{
     margin-bottom: 10px;
 }
 
-.main a{
-    background-color: rgb(239, 244, 252);
-    padding:3px;
-    font-size: 0.9rem;
-    border-radius: 2px;
+.main button{
+    background-color: rgb(81, 89, 100);
+    border: 1px solid rgb(35, 54, 82);
+    padding:6px;
 }
+
 
 form{
     margin-top: 30px;;
