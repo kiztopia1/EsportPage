@@ -76,7 +76,11 @@ a{
     padding:6px;
 }
 
-
+.banner{
+    position: absolute;
+    top: 100px;
+    right:20px;
+}
 form{
     margin-top: 30px;;
     width: 100%;
